@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*.nav-enlace{
+    background: #060A13
+    color: #fff;
+    padding: 10px 30px;
+}*/
+
+.nav-left{
+    position: absolute;
+    width: 100%;
+    height: 63px;
+    left: 0px;
+    top: 0px;
+    background: #060A13;
+}
+
+.nav-right{
+    position: absolute;
+    width: 100%;
+    height: 63px;
+    left: 1550px;
+    top: 0px;
+    background: #060A13;
+}
+
+
+
+ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+
+li{
+    list-style: none;
+    margin-left: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+h1{
+    color: #060A13;
+}
+
+header{
+font-family: 'Hi Melody';
+font-style: normal;
+font-weight: 50px;
+font-size: 30px;
+line-height: 80px;
+
+    position: relative;
+    margin-top: 80px;
+    margin-left: 540px;
+    margin-bottom: 0px;
+    
+
+    
+}
+
+.img-1{
+/*margin-right: 10px;*/
+width: 300px;
+height: 300px;
+position: relative;
+/*left: 10px;*/
+top: 30px;
+left: 200px;
+    
+}
+
+.img-2{
+    
+    width: 400px;
+    height: 350px;
+    position: relative;
+    
+    left: 400px;
+    
+}
+.img-5{
+    
+    width: 600px;
+    height: 300px;
+    position: relative;
+    
+    left: 500px;
+    
+}
+
+.conteiner2{
+position: absolute;
+width: 538px;
+height: 80px;
+left: 700px;
+top: 600px;
+}
+
+.conteiner3{
+    position: absolute;
+    width: 538px;
+    height: 80px;
+    left: 750px;
+    top: 700px;
+    }
+
+
+div.galeria {
+margin: 10px 20px;
+width: 350px;
+box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0, 0, 0, 19);
+float: left;
+}
+
+
+
+div.galeria img{
+    margin: 0px auto;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+
+
+div.galeria:hover{
+    border: 1px solid #060A13;
+    transform: rotate(-3deg);
+    
+}
+
+div.pie{
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    padding: 10px;
+}
