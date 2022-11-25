@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+   
 }
 
 /*.nav-enlace{
@@ -163,6 +163,12 @@ footer{
     text-align: center;
     height: 50px;
     line-height: 50px;
+    /*position: absolute;*/
+    bottom: 0;
+    width: 100%;
+    /*padding: 1em 0;*/
+    
+  
 }
 
 .clearfix{
