@@ -19,8 +19,9 @@
     background: #060A13;
 }
 
+/* REVISAR */
 .nav-right{
-    position: absolute;
+    position: absolute !important;
     width: 100%;
     height: 63px;
     left: 1550px;
@@ -58,70 +59,85 @@ font-style: normal;
 font-weight: 50px;
 font-size: 30px;
 line-height: 80px;
+margin-top:100px;
+}
 
-    position: relative;
-    margin-top: 80px;
-    margin-left: 540px;
-    margin-bottom: 0px;
-    
-
-    
+header h2{
+ text-align: center;
 }
 
 .img-1{
-/*margin-right: 10px;*/
+    margin: 0px 50px 0px 50px;
 width: 300px;
 height: 300px;
-position: relative;
-/*left: 10px;*/
-top: 30px;
-left: 200px;
-    
 }
 
 .img-2{
-    
+    margin: 0px 50px 0px 50px;
     width: 400px;
-    height: 350px;
-    position: relative;
-    
-    left: 400px;
-    
+    height: 300px;
 }
 .img-5{
-    
+    margin: 0px 50px 0px 50px;
     width: 600px;
     height: 300px;
-    position: relative;
-    
-    left: 500px;
-    
+}
+
+.conteiner{
+    margin: 0px 20px 0px 20px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .conteiner2{
-position: absolute;
-width: 538px;
+margin-top:40px;
+width: 100%;
 height: 80px;
-left: 700px;
-top: 600px;
+}
+
+.conteiner2 p {
+    text-align: center;
 }
 
 .conteiner3{
-    position: absolute;
-    width: 538px;
-    height: 80px;
-    left: 750px;
-    top: 700px;
-    }
+    width: 100%;
+}
 
+.conteiner3 form {
+    display: flex;
+    flex-direction: column;
+    align-items: center
 
+}
 
+.conteiner5{
+    margin: 30px 0 30px 0;
+    width: 100%;
+    height: 100px;
+}
+
+.conteiner5 h2 {
+    text-align: center
+}
 
 div.galeria {
-margin: 400gipx 20px;
+margin: 10px 20px;
 width: 350px;
 box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0, 0, 0, 19);
 float: left;
+}
+
+.galeria-container{
+    width:100%;
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    align-items: normal;
+    justify-content: center
 }
 
 
