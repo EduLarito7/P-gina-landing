@@ -19,10 +19,8 @@
     top: 0px;*/
     background: #060A13;
     display: table;
+
 }
-
-
-
 
 
 ul{
@@ -163,7 +161,7 @@ footer{/*
     text-align: center;
     height: 50px;
     line-height: 50px;*/
-    width: 100%;
+    width: 62%;
     position: absolute;
     bottom: 100;
     left: 0;
