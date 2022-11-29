@@ -157,20 +157,21 @@ div.pie{
     padding: 10px;
 } 
 
-footer{
+footer{/*
     background: #060A13;
     color: white;
     text-align: center;
     height: 50px;
-    line-height: 50px;
-    /*position: absolute;*/
-    bottom: 0;
+    line-height: 50px;*/
     width: 100%;
-    /*padding: 1em 0;*/
-    
-  
+    position: absolute;
+    bottom: 100;
+    left: 0;
+    padding: 2rem 15%;
+    background: #060A13;
+    color: white;
+
 }
 
-.clearfix{
-    clear: both;
-}
+
+
